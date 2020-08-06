@@ -1,5 +1,8 @@
 #! /bin/perl
 
+# 色々上手く行かない。
+# git bash のコンソールウィンドウにエクスプローラで選択して放り込むのが、現時点では確実に動く。
+
 
 if ( @ARGV )
 {
@@ -10,7 +13,8 @@ if ( @ARGV )
 }
 else
 {
-    open(my $fh, "fromclip | iconv -f sjis -t utf-8 |");
+#    open(my $fh, "fromclip | iconv -f sjis -t utf-8 |");
+    open(my $fh, "fromclip |");
     while (<$fh>)
     {
         &do($_);
@@ -33,19 +37,18 @@ sub imagename()
     $str =~ s#¥#/#g;      # convert path separator
     if ( -f $str )
     {
-        $str =~ /^(.*\/)([^\/]+)$/;
-        $path = $1;
-        $body = $2;
-        if ( ! -e "./images/$str" )
+        $str =~ /^(.*\/)?([^\/]+)$/;
+        local( $path, $filename ) = ($1, $2);
+        if ( ! -e "./images/$filename" )
         {
 print "cp\n";
-#            system("cp '$path$body' './images/$body'");
+#            system("cp '$path$filename' './images/$filename'");
         }
-        return $body;
+        return $filename;
     }
     if ( $str =~ /\.(jpg|jpeg|png)/ )
     {
-        return $2;
+        return $str;
     }
     return $str.'.jpg';
 
