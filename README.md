@@ -1,3 +1,3 @@
 どこからでもアクセスしたい、誰に見られてもいいテキスト。
 
-https://github.com/kei-oguro/documents/tree/master/diary
+日記 https://github.com/kei-oguro/documents/tree/master/diary/README.md
