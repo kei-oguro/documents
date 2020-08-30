@@ -27,7 +27,8 @@ sub do()
     local($image) = &imagename($_[0]);
     $image =~ /(.*)\.([^.]+)$/;
     local($body, $ext) = ($1, $2);
-    print "![$body.$ext](images/" . &urlencode($body) . ".$ext)";
+#    print "![$body.$ext](images/" . &urlencode($body) . ".$ext)";
+    print "<img src='images/" . &urlencode($body) . ".$ext' alt='$body.$ext' >\n";
 }
 
 sub imagename()
