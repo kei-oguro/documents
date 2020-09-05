@@ -26,9 +26,15 @@ sub do()
 {
     local($image) = &imagename($_[0]);
     $image =~ /(.*)\.([^.]+)$/;
-    local($body, $ext) = ($1, $2);
+    local($body, $url, $ext) = ($1, &urlencode($1), $2);
 #    print "![$body.$ext](images/" . &urlencode($body) . ".$ext)";
-    print "<img src='images/" . &urlencode($body) . ".$ext' alt='$body.$ext' >\n";
+    if ( $ext =~ /^mp4$/i )
+    {
+        print "<a href='images/$url.$ext'><video src='images/$url.$ext' alt='$body.$ext' >$body.$ext</video></a>\n";
+    }
+    else {
+        print "<img src='images/$url.$ext' alt='$body.$ext' >\n";
+    }
 }
 
 sub imagename()
