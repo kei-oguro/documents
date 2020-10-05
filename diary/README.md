@@ -5,11 +5,12 @@
 Instagram https://www.instagram.com/magu.sakaue/
 
 iCloud 共有アルバム  
-食い物屋 https://www.icloud.com/sharedalbum/#B16532ODWykvUq
-手料理 https://www.icloud.com/sharedalbum/#B165qXGF1Hu7Qp
-園芸 https://www.icloud.com/sharedalbum/#B16GY8gBYGyPDja
+食い物屋 https://www.icloud.com/sharedalbum/#B16532ODWykvUq  
+手料理 https://www.icloud.com/sharedalbum/#B165qXGF1Hu7Qp  
+園芸 https://www.icloud.com/sharedalbum/#B16GY8gBYGyPDja  
 
-[2020-09](2020-09.md) ハダニ無双。パクチー発芽。バス旅行。レーザーカッター。  
+[2020-10](2020-10.md)  
+[2020-09](2020-09.md) ハダニ無双。パクチー発芽。サヨナラハバネロ。バス旅行。レーザーカッター。  
 [2020-08](2020-08.md) 梅雨明け。猛暑。ハダニ。  
 [2020-07](2020-07.md) リモート解除！フル出社！ウォーキングやランニングの理由になるので毎日通勤を望んでいた。オリジナルプリント __エプロン__。__食べ放題__ めぐり。  
 [2020-06](2020-06.md) フルリモート勤務。比較的自炊。九州で豪雨。  
