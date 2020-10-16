@@ -5,7 +5,7 @@
 BR=`git branch --show-current`
 
 git add --all
-git commit -m "no message"
+git commit -m "commit from '$BR'"
 git checkout master
 git merge -m "Merge branch '$BR'" --no-ff $BR
 git push
