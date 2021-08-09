@@ -7,6 +7,7 @@ iCloud 共有アルバム
 手料理 https://www.icloud.com/sharedalbum/#B165qXGF1Hu7Qp  
 園芸 https://www.icloud.com/sharedalbum/#B16GY8gBYGyPDja  
 
+[2021-08](2021-08.md)   
 [2021-07](2021-07.md)   
 [2021-06](2021-06.md) 寿司食べ放題。  
 [2021-05](2021-05.md) 唐辛子の苗。アメ横。骨伝導イヤホン。ネズミ。英文法のAudible。NASのバックアップ。  
