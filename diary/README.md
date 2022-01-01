@@ -7,6 +7,10 @@ iCloud 共有アルバム
 手料理 https://www.icloud.com/sharedalbum/#B165qXGF1Hu7Qp  
 園芸 https://www.icloud.com/sharedalbum/#B16GY8gBYGyPDja  
 
+## 2022
+
+[2022-01](2022-01.md)   
+
 ## 2021
 
 [2021-12](2021-12.md) ビアバー巡り。ガパオ。最低気温0°C程度の日が多い。退職処理。  
