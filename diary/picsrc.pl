@@ -33,7 +33,7 @@ sub do()
         print "<a href='images/$url.$ext'><video src='images/$url.$ext' alt='$body.$ext' >$body.$ext</video></a>\n";
     }
     else {
-        print "<img src='images/$url.$ext' alt='$body.$ext' >\n";
+        print "<img src='images/$url.$ext' alt='$body.$ext' width='30%'>\n";
     }
 }
 
