@@ -1,4 +1,4 @@
-日記
+# 日記
 
 Instagram https://www.instagram.com/magu.sakaue/
 
@@ -14,7 +14,7 @@ Amazon 欲しいものリスト(こういうのに興味がある、という話
 
 ## 2022
 
-[2022-01](2022-01.md) 新しい職場。チョイ断捨離。ゲーム棚卸。雪。コロナ。ライムの木とカレーの木を半分室内避難。唐辛子剪定。AppAgg。自炊。飴色玉ねぎ。アブラムシ💦。tex2svg。  
+[2022-01](2022-01.md) 新しい職場。チョイ断捨離。ゲーム棚卸。雪。コロナ。一部の鉢植えを室内避難。唐辛子剪定。AppAgg。自炊。飴色玉ねぎ。アブラムシ💦。tex2svg。  
 
 ## 2021
 
@@ -34,13 +34,13 @@ Amazon 欲しいものリスト(こういうのに興味がある、という話
 ## 2020
 
 [2020-12](2020-12.md) ジェルボール。パーライト。 __ハバネロ農園__ 。カレー持ち帰り。予定納税。リングフィットアドベンチャー  
-[2020-11](2020-11.md) 本棚。ライム。発芽祭り。 __スタースマッシュリリース__！唐辛子種まき。Gパン29inch。持ち帰りビール。  
+[2020-11](2020-11.md) 本棚。ライム。発芽祭り。 __スタースマッシュリリース__ ！唐辛子種まき。Gパン29inch。持ち帰りビール。  
 [2020-10](2020-10.md) サラダ。 __下北沢カレーフェス__ 。キノコ。発芽祭り。ビニールカーテン。  
 [2020-09](2020-09.md) __ハダニ無双__ 。パクチー発芽。サヨナラハバネロ。バス旅行。レーザーカッター。  
 [2020-08](2020-08.md) 梅雨明け。猛暑。ハダニ。  
 [2020-07](2020-07.md) リモート解除！フル出社！ウォーキングやランニングの理由になるので毎日通勤を望んでいた。オリジナルプリント __エプロン__。__食べ放題__ めぐり。  
 [2020-06](2020-06.md) フルリモート勤務。比較的自炊。九州で豪雨。  
-[2020-05](2020-05.md) フルリモート勤務。 __玉ねぎ丸ごとオーブン焼き__。唐辛子、紫蘇、カレーリーフの __苗__。  
+[2020-05](2020-05.md) フルリモート勤務。 __玉ねぎ丸ごとオーブン焼き__。唐辛子、紫蘇、カレーリーフの __苗__ 。  
 [2020-04](2020-04.md) __職場がリモート推奨__ になり、チーム内のコミュニケーションが減るから、ということで日報を書くことになった。  
 プログラマは、 BTS のチケットと VCS のコミットログ見たら、作業内容は分かるから日報は不要だ、という流れだったのだが。  
 それで日々の日記を日報に書き始めた。  
@@ -63,11 +63,22 @@ Amazon 欲しいものリスト(こういうのに興味がある、という話
 5. 元の数式を変更したりすると思うので、クリップボードから実行するようにする。  
    `xargs tex2svg> images/sin2-plus-cos2-eq-1.svg </dev/clipboard`
 6. ライトモード/ダークモード対応に変更する。  
-   tex2svgはsvgファイル中の色属性値にcurrentColorを使うので、 ライトモードなら `sed s/currentColor/white/` のようにする。
+   tex2svgはsvgファイル中の色属性値にcurrentColorを使うので、 ライトモードなら `sed s/currentColor/black/` のようにする。
 7. クリップボードの中身からsvgを2つ作成するスクリプトを用意したので、それを使う。  
    `bash tex2svg-gh.sh diary/images/sin2-plus-cos2-eq-1 "\sin^2{\theta} + \cos^2{\theta} = 1"`  
-   - `![sin2-plus-cos2-eq-1.black](images/sin2-plus-cos2-eq-1.black.svg#gh-light-mode-only)` ![sin2-plus-cos2-eq-1.black](images/sin2-plus-cos2-eq-1.black.svg#gh-light-mode-only)  
-   - `![sin2-plus-cos2-eq-1.white](images/sin2-plus-cos2-eq-1.white.svg#gh-dark-mode-only)` ![sin2-plus-cos2-eq-1.white](images/sin2-plus-cos2-eq-1.white.svg#gh-dark-mode-only)
+   - `![](images/sin2-plus-cos2-eq-1.light.svg#gh-light-mode-only)` ![](images/sin2-plus-cos2-eq-1.light.svg#gh-light-mode-only)  
+   - `![](images/sin2-plus-cos2-eq-1.dark.svg#gh-dark-mode-only)` ![](images/sin2-plus-cos2-eq-1.dark.svg#gh-dark-mode-only)
 
 vscodeのプレビューアはGitHub Flavoredに対応してないので、ライトモードダークモードの両方表示されてしまう。  
 まあ、書いてる時はそれでいい気がするけど。
+
+### vscodeでのスペルチェック
+
+[Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) 拡張を使用。
+
+.cspell/custom-dictionary-workspace.txt にdocuments用辞書。
+
+- `<!-- cspell: disable-next-line -->` で次の行でエラーを無視
+- `<!-- cspell: disable -->` と `<!-- cspell: enable -->` で挟まれた範囲でエラーを無視
+- `<!-- cspell:ignore aaaa bbbb  -->` や `<!-- cspell:words xxxx yyyy-->` でそのファイルのそれ以降で、無視や登録単語が適用される
+- ファイル名のエスケープについては `<!-- cspell:ignoreRegExp %2D %2E -->` の様なものを使う。この例の空白や `.` に続く単語もちゃんとスペルチェックしてくれる。
