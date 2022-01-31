@@ -1,4 +1,12 @@
 {
     "markdown.preview.lineHeight": 1.4,
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:documents}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    },
 }
