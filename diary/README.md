@@ -14,7 +14,8 @@ Amazon 欲しいものリスト(こういうのに興味がある、という話
 
 ## 2022
 
-[2022-01](2022-01.md) 新しい職場。チョイ断捨離。ゲーム棚卸。雪。コロナ。一部の鉢植えを室内避難。唐辛子剪定。AppAgg。自炊。飴色玉ねぎ。アブラムシ💦。tex2svg。  
+[2022-02](2022-02.md)   
+[2022-01](2022-01.md) 新しい職場。チョイ断捨離。ゲーム棚卸。雪。コロナ。一部の鉢植えを室内避難。唐辛子剪定。AppAgg。自炊。飴色玉ねぎ。アブラムシ💦。tex2svg。スペルチェック。  
 
 ## 2021
 
@@ -61,16 +62,8 @@ Amazon 欲しいものリスト(こういうのに興味がある、という話
    `<!-- \sin^2{\theta} + \cos^2{\theta} = 1 -->`  
    などとしておく。
 5. 元の数式を変更したりすると思うので、クリップボードから実行するようにする。  
-   `xargs tex2svg> images/sin2-plus-cos2-eq-1.svg </dev/clipboard`
-6. ライトモード/ダークモード対応に変更する。  
-   tex2svgはsvgファイル中の色属性値にcurrentColorを使うので、 ライトモードなら `sed s/currentColor/black/` のようにする。
-7. クリップボードの中身からsvgを2つ作成するスクリプトを用意したので、それを使う。  
-   `bash tex2svg-gh.sh diary/images/sin2-plus-cos2-eq-1 "\sin^2{\theta} + \cos^2{\theta} = 1"`  
-   - `![](images/sin2-plus-cos2-eq-1.light.svg#gh-light-mode-only)` ![](images/sin2-plus-cos2-eq-1.light.svg#gh-light-mode-only)  
-   - `![](images/sin2-plus-cos2-eq-1.dark.svg#gh-dark-mode-only)` ![](images/sin2-plus-cos2-eq-1.dark.svg#gh-dark-mode-only)
-
-vscodeのプレビューアはGitHub Flavoredに対応してないので、ライトモードダークモードの両方表示されてしまう。  
-まあ、書いてる時はそれでいい気がするけど。
+   `xargs tex2svg> images/sin2-plus-cos2-eq-1.svg </dev/clipboard`  
+   ここでxargsを使うのは、tex2svgが引数でしか数式を渡せない作りのため。
 
 ### vscodeでのスペルチェック
 
