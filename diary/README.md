@@ -73,5 +73,5 @@ Amazon 欲しいものリスト(こういうのに興味がある、という話
 
 - `<!-- cspell: disable-next-line -->` で次の行でエラーを無視
 - `<!-- cspell: disable -->` と `<!-- cspell: enable -->` で挟まれた範囲でエラーを無視
-- `<!-- cspell:ignore aaaa bbbb  -->` や `<!-- cspell:words xxxx yyyy-->` でそのファイルのそれ以降で、無視や登録単語が適用される
+- `<!-- cspell:ignore aaaa bbbb  -->` や `<!-- cspell:words xxxx yyyy-->` でそのファイルに、無視や登録単語が適用される。
 - ファイル名のエスケープについては `<!-- cspell:ignoreRegExp %2D %2E -->` の様なものを使う。この例の空白や `.` に続く単語もちゃんとスペルチェックしてくれる。
