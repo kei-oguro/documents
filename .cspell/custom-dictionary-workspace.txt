@@ -103,6 +103,8 @@ Ventuno
 Viron
 VOICEROID
 WASD
+wday
+wdays
 wingw
 yamlview
 Zanac
