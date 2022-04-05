@@ -1,12 +1,3 @@
-# C family
-# Custom Dictionary Words
-# shader
-# tech
-# 固有名詞
-# 自作物
-# 地名
-# 店名
-# 略語
 akasaka
 altivec
 aoyama
