@@ -32,6 +32,7 @@ FFCC
 fromclip
 GABAN
 GAU'S
+gmail
 GPDR
 grezzo
 GronG
@@ -48,6 +49,7 @@ Kawase
 Krita
 KUUMBA
 landtmann
+lerp
 lsusb
 Magick
 mathjax

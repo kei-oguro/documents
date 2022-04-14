@@ -6,7 +6,6 @@ from calendar import Calendar
 from sys import argv
 import re
 import time
-from typing import Tuple
 
 
 class Month:
@@ -26,7 +25,7 @@ class Month:
 
 def print_term_links(from_month: Month, to_month: Month) -> None:
     """全期間のリンク。今年と去年は1行1年。それ以前は1行にすべての年。"""
-    def print_monthes(year: int, from_: int, to: int):
+    def print_months(year: int, from_: int, to: int):
         """1年分の月毎のリンク。今月は '今月' と表示"""
         for month in range(from_, to+1):
             displayMonth = '今' if to_month == Month(year, month) else month
@@ -37,7 +36,7 @@ def print_term_links(from_month: Month, to_month: Month) -> None:
         print(f'[{year}](README.md#{year}) ', end='')
         first_month = 1 if from_month.year != year else from_month.month
         last_month = 12 if to_month.year != year else to_month.month
-        print_monthes(year, first_month, last_month)
+        print_months(year, first_month, last_month)
         print(' ')  # markdown <br>
 
     # 今年と去年を1行ずつ
@@ -51,28 +50,28 @@ def print_term_links(from_month: Month, to_month: Month) -> None:
     print(' ')  # markdown <br>
 
 
-def print_month_header(year: int, month: int) -> None:
+def print_month_header(target: Month) -> None:
     print('')
-    print(f'{year}年{month}月')
+    print(f'{target.year}年{target.month}月')
     print('=========')
     print('')
 
 
-def print_month_calendar(year: int, month: int) -> None:
+def print_month_calendar(target: Month) -> None:
     kanji_wdays = ('月', '火', '水', '木', '金', '土', '日', )
     cal = Calendar(firstweekday=6)
 
     print('|Sun|Mon|Tue|Wen|Thu|Fri|Sat|')
     print('|---|---|---|---|---|---|---|')
-    for week in cal.monthdatescalendar(year, month):
+    for week in cal.monthdatescalendar(target.year, target.month):
         for date in week:
-            prefix = '' if date.month == month else f'{date.year}-{date.month:0>2}.md'  # noqa: E501
+            prefix = '' if date.month == target.month else f'{date.year}-{date.month:0>2}.md'  # noqa: E501
             print(f'|[{date.day}]', end='')
             print(f'({prefix}#{date.month:0>2}{date.day:0>2}-{kanji_wdays[date.weekday()]})', end='')  # noqa: E501
         print('|')
 
 
-def extract_arguments() -> Tuple[int, int]:
+def extract_arguments() -> Month:
     if len(argv) > 1:
         spec = re.split('[^0-9]', argv[1])
         if len(spec) == 1 and len(argv) > 2:
@@ -84,14 +83,14 @@ def extract_arguments() -> Tuple[int, int]:
             exit()
     else:
         now = time.localtime()
-        return (now.tm_year, now.tm_mon)
+        return Month(now.tm_year, now.tm_mon)
 
 
 first_month = Month(2020, 4)
-(year, month) = extract_arguments()
-print_term_links(first_month, Month(year, month))
+target_month = extract_arguments()
+print_term_links(first_month, target_month)
 
-print_month_header(year, month)
-print_month_calendar(year, month)
+print_month_header(target_month)
+print_month_calendar(target_month)
 
 print('')
