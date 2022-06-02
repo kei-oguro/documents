@@ -14,8 +14,9 @@ Amazon 欲しいものリスト(こういうのに興味がある、という話
 
 ## 2022
 
-[2022-05](2022-05.md)   
-[2022-04](2022-04.md) Cultist Simulator。  
+[2022-06](2022-06.md) ハダニ。  
+[2022-05](2022-05.md) アブラムシ。キノコバエ殺虫剤。マウス買い替え。激辛ラード。糠漬け。ハーブティー。南国プランター。  
+[2022-04](2022-04.md) ラード。梅。漬け込み酒。発芽セット。Cultist Simulator。  
 [2022-03](2022-03.md) 蔓延防止措置延長。フライパン。寒い！ビミサン大根。チャパゲティ。味がしない？PCが起動しない。確定申告。時短解除。DeepL。ショコラテリーヌ。  
 <!-- cSpell:words wordle fbxsdk -->
 [2022-02](2022-02.md) 飴色玉ねぎ。Wordle。svg。FX利確。練乳生キャラメル。Blender。fbxsdk。扁桃腺。バレンタイン。コバエ。冷凍ラーメン食べ比べ。ペンタブレット。ウクライナ侵攻。湯沢旅行。  
@@ -59,8 +60,8 @@ Amazon 欲しいものリスト(こういうのに興味がある、という話
 
 1. `node.js` をインストールしてvscodeで `node` や `npm` にパスが通るようにする。
 2. 例えば `tex2svg '\sin^2{\theta} + \cos^2{\theta} = 1' > diary/images/sin2-plus-cos2-eq-1.svg`
-3. `<img src="images/sin2-plus-cos2-eq-1.svg">` で表示する。  
-   <img src="images/sin2-plus-cos2-eq-1.svg">
+3. `<img src="images/sin2-plus-cos2-eq-1.svg" style="background: white">` で表示する。  
+   <img src="images/sin2-plus-cos2-eq-1.svg" style="background: white">
 
 4. 元になったTeXを残しておきたいので、近くに  
    `<!-- \sin^2{\theta} + \cos^2{\theta} = 1 -->`  
