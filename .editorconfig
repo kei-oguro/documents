@@ -1,5 +1,5 @@
 [*.md]
-end_of_line = crlf
+end_of_line = lf
 charset = utf-8
 indent_style = space
 indent_size = 2
