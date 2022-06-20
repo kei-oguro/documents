@@ -59,8 +59,10 @@ lsusb
 Magick
 mathjax
 Matz
+manis
 mbcs
 mimet
+mimpi
 MMAP
 Moja
 MVNO
