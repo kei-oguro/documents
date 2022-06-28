@@ -58,19 +58,9 @@ Amazon 欲しいものリスト(こういうのに興味がある、という話
 
 ## Memo
 
-### 数式svg作成
+### 数式
 
-1. `node.js` をインストールしてvscodeで `node` や `npm` にパスが通るようにする。
-2. 例えば `tex2svg '\sin^2{\theta} + \cos^2{\theta} = 1' > diary/images/sin2-plus-cos2-eq-1.svg`
-3. `<img src="images/sin2-plus-cos2-eq-1.svg" style="background: white">` で表示する。  
-   <img src="images/sin2-plus-cos2-eq-1.svg" style="background: white">
-
-4. 元になったTeXを残しておきたいので、近くに  
-   `<!-- \sin^2{\theta} + \cos^2{\theta} = 1 -->`  
-   などとしておく。
-5. 元の数式を変更したりすると思うので、クリップボードから実行するようにする。  
-   `xargs tex2svg> images/sin2-plus-cos2-eq-1.svg </dev/clipboard`  
-   ここでxargsを使うのは、tex2svgが引数でしか数式を渡せない作りのため。
+GitHubが数式をサポートして、TeXをそのまま書ける。`$1 + 1$`が $1 + 1$ に、`$$\pi{r}^2$$` が $$\pi{r}^2$$ になる。
 
 ### vscodeでのスペルチェック
 
