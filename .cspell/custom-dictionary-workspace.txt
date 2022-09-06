@@ -71,6 +71,7 @@ msil
 mspaint
 nslookup
 OALD
+Oanda
 oguro
 ONIWA
 ozaki
