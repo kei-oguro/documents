@@ -94,6 +94,7 @@ SIMD
 Siri
 sjis
 SPICELY
+stackalloc
 stdio
 struct
 SUZU
