@@ -9,6 +9,7 @@ asint
 BABBI
 Beasty
 bebu
+Boniq
 CHOMPOO
 cinq
 CITRA
