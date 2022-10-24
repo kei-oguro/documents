@@ -49,6 +49,7 @@ ifdef
 INGRY'S
 italiano
 ITSUKI
+JASRAC
 Jiro
 julay
 kaggler
