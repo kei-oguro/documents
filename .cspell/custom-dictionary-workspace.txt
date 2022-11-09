@@ -118,7 +118,7 @@ WASD
 wday
 wdays
 wingw
-Wifi
+wifi
 Wordle
 XFLAG
 xyzw
