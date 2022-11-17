@@ -9,6 +9,7 @@ asint
 BABBI
 Beasty
 bebu
+binormal
 Boniq
 CHOMPOO
 cinq
