@@ -7,6 +7,7 @@ BR=`git branch --show-current`
 git add --all
 git commit -m "commit from '$BR'"
 git checkout main
+git pull
 git merge -m "Merge branch '$BR'" --no-ff $BR
 git push
 git pull --all
