@@ -10,4 +10,8 @@
         }
     },
     "workbench.colorTheme": "Tomorrow Night Blue",
+    "cSpell.dictionaries": [
+        "win32api",
+        "pythonLibrary"
+    ],
 }
