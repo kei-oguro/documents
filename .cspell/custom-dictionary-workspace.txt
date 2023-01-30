@@ -1,5 +1,6 @@
 aiko
 akasaka
+alloca
 altivec
 Anova
 aoyama
