@@ -111,6 +111,7 @@ Suica
 SUZU
 TBDR
 toclip
+tparam
 UCHU
 UEFI
 UPLIGHT
