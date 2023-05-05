@@ -57,8 +57,10 @@ INGRY'S
 italiano
 ITSUKI
 JASRAC
+jekyll
 Jiro
 julay
+kaggle
 kaggler
 Karsk
 Kawase
