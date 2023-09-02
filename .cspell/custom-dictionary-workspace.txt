@@ -81,6 +81,8 @@ Moja
 MVNO
 msil
 mspaint
+Nasco
+NISA
 nslookup
 OALD
 Oanda
@@ -116,6 +118,7 @@ Suica
 SUZU
 TBDR
 toclip
+TOPIX
 tparam
 UCHU
 UEFI

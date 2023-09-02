@@ -14,4 +14,7 @@
         "win32api",
         "pythonLibrary"
     ],
+    "github.copilot.enable": {
+        "*": false
+    }
 }
