@@ -1,0 +1,13 @@
+{
+    "dictionaryDefinitions": [
+        {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:documents}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    ],
+    "dictionaries": [
+        "custom-dictionary-workspace"
+    ]
+}
