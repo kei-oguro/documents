@@ -1,12 +1,14 @@
 {
     "import": "../cspell.json",
-    "words": [
-        "NISA",
-        "OLFA",
-        "SIMD",
-        "Skyrim",
-        "struct",
-        "wordle",
-        "WQHD"
+    "dictionaryDefinitions": [
+        {
+            "name": "diary",
+            "path": "diary-words.dic",
+            "addWords": true,
+            "scope": "folder"
+        }
+    ],
+    "dictionaries": [
+        "diary"
     ]
 }
