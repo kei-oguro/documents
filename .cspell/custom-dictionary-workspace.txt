@@ -5,6 +5,7 @@ asfloat
 asint
 Bazel
 binormal
+cartesian
 cmath
 cstdio
 enumclip
