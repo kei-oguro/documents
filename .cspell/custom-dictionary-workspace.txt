@@ -29,6 +29,7 @@ sjis
 stackalloc
 stdio
 struct
+tada
 toclip
 tparam
 wday
