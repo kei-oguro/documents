@@ -14,9 +14,12 @@ Amazon 欲しいものリスト(こういうのに興味がある、という話
 パン/菓子 https://www.amazon.co.jp/hz/wishlist/ls/32OHTW76N1X5U  
 食べ物 https://www.amazon.co.jp/hz/wishlist/ls/21GGYEA6ZY3O2
 
-## 2023
+## 2024
 
 [2024-01](2024-01.md)   
+
+## 2023
+
 [2023-12](2023-12.md)   
 [2023-11](2023-11.md)   
 [2023-10](2023-10.md)   
