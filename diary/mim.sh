@@ -5,10 +5,10 @@
 BR=`git branch --show-current`
 
 git add --all
-git commit -m "commit from '$BR'"
+git commit -m "Commit the diary from '$BR'"
 git checkout main
 git pull
-git merge -m "Merge branch '$BR'" --no-ff $BR
+git merge -m "Merge the diary branch '$BR'" --no-ff $BR
 git push
 git pull --all
 git checkout $BR
