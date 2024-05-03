@@ -8,5 +8,6 @@
     ],
     "github.copilot.enable": {
         "*": false
-    }
+    },
+    "CodeGPT.apiKey": "Ollama"
 }
