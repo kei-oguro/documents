@@ -19,6 +19,7 @@ lerp
 lsusb
 mbcs
 MMAP
+nVidia
 nullable
 oguro
 RAII
