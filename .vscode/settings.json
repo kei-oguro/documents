@@ -9,5 +9,6 @@
     "github.copilot.enable": {
         "*": false
     },
-    "CodeGPT.apiKey": "Ollama"
+    "CodeGPT.apiKey": "Ollama",
+    "CodeGPT.Autocomplete.provider": "Ollama - codegemma:instruct"
 }
