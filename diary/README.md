@@ -104,7 +104,6 @@ GitHubが数式をサポートして、TeXをそのまま書ける。`$1 + 1$`�
 - `<!-- cspell: disable-next-line -->` で次の行でエラーを無視
 - `<!-- cspell: disable -->` と `<!-- cspell: enable -->` で挟まれた範囲でエラーを無視
 - `<!-- cspell:ignore aaaa bbbb -->` や `<!-- cspell:words xxxx yyyy -->` でそのファイルに、無視や登録単語が適用される。
-- urlのエスケープについては `<!-- cspell:ignoreRegExp %2D %2E -->` の様なものを使う。この例の空白や `.` に続く単語もちゃんとスペルチェックしてくれる。
 
 *note: 各フォルダに `cspell.json` を配置する仕組みに移行中で、ここの内容はフォルダ毎の辞書についてメンテが必要。*
 

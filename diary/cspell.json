@@ -10,5 +10,9 @@
     ],
     "dictionaries": [
         "diary"
+    ],
+    "ignoreRegExpList": [
+        "%2D",
+        "%2E"
     ]
 }
