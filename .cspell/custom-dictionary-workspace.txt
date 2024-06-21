@@ -16,6 +16,7 @@ hypot
 ifdef
 landtmann
 lerp
+Linq
 lsusb
 mbcs
 MMAP
