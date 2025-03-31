@@ -14,10 +14,9 @@ Amazon 欲しいものリスト(こういうのに興味がある、という話
 [パン/菓子](https://www.amazon.co.jp/hz/wishlist/ls/32OHTW76N1X5U)  
 [食べ物](https://www.amazon.co.jp/hz/wishlist/ls/21GGYEA6ZY3O2)
 
-## 2024
+## 2025
 
 [2025-03.md](2025-03.md) 自宅マウスで細かい操作ができない  
-
 [2025-02.md](2025-02.md) コロナ？レモネード、`The Outer Worlds`再開、`Undertale`、DeskHop、`万国コーヒー`のフレーバーコーヒー  
 [2025-01.md](2025-01.md) ゼルダ、`Alien Invasion`切り替え付きBluetoothマウス、DeskHop、見積書  
 
