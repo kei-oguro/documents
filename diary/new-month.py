@@ -77,7 +77,7 @@ def extract_arguments() -> Month:
         if len(spec) == 1 and len(argv) > 2:
             spec.append(argv[2])
         try:
-            return (int(spec[0]), int(spec[1]))
+            return Month(int(spec[0]), int(spec[1]))
         except Exception:
             print("specify month.")
             exit()
