@@ -85,6 +85,7 @@ def extract_arguments() -> Month:
         now = time.localtime()
         return Month(now.tm_year, now.tm_mon)
 
+print("[目次](README.md)  ");
 
 first_month = Month(2020, 4)
 target_month = extract_arguments()
