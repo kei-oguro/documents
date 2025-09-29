@@ -16,7 +16,7 @@ Amazon 欲しいものリスト(こういうのに興味がある、という話
 
 ## 2025
 
-[2025-08.md](2025-09.md) 
+[2025-09.md](2025-09.md) スマホの仕事、M1 Macbook Air 落札、`Loop Hero`、Kindle の git クライアントとテキストエディタ、Ubuntu 以外のディストロ、メルカリで Zwide SA11 購入、最終出社  
 [2025-08.md](2025-08.md) 11インチラップトップ探し、タマリンドの種を採取、種蒔き、AndroidタブレットにUbuntu Touch、Win11 2in1タブレット、USBメモリ、オクラ、Termux + proot-distro、Termux-x11、Firefox タッチ操作、Android16 で本物の Linux、しかし購入した端末では権限が無いと言われる  
 [2025-07.md](2025-07.md) クビ、PC新調、ヤフオククーポン使い切り作戦、ヤフオクとフリマで苗沢山  
 [2025-06.md](2025-06.md)   
@@ -125,4 +125,4 @@ GitHubが数式をサポートして、TeXをそのまま書ける。`$1 + 1$`�
 
 *note: 各フォルダに `cspell.json` を配置する仕組みに移行中で、ここの内容はフォルダ毎の辞書についてメンテが必要。*
 
-<!-- cSpell:words fbxsdk -->
+<!-- cSpell:words fbxsdk Zwide -->
