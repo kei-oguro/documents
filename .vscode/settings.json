@@ -8,5 +8,8 @@
     ],
     "github.copilot.enable": {
         "*": false
+    },
+    "workbench.colorCustomizations": {
+        "tab.activeBorderTop": "#c0c0ff"
     }
 }
