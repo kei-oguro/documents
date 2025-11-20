@@ -36,6 +36,7 @@ lsusb
 mbcs
 Mbps
 MMAP
+NDEBUG
 nVidia
 nullable
 oguro
