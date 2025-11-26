@@ -5,9 +5,41 @@ Kindle fire 11 max いじり
 
 [2024/12/01 購入](../diary/2024-12.md#1201-diary-on-kindle-fire)。セールでキーボード付きで34000円程度で買えるのは安いと思った。vscode.dev を使って、外出時に日記を書くのに良いのではないだろうかと思って購入した。
 
-色々やってみたけど、ブラウザベースでは「Esc」の入力でホームに戻ってしまうし、x11 はメモリ不足で落ちた時の復帰がだるい。
+色々やってみたけど、ブラウザベースでは「Esc」の入力でホームに戻ってしまうし、x11 はメモリ不足で落ちた時の復帰がだるい。Android 側の Web ブラウザで色々見てると簡単に落とされる。
 
 今のところ上手く行っていないが、アレコレ試して、何が良くて何がダメなのか思い出せないのでメモを作成する。
+
+#### 結局諦めた
+
+このテキストの存在をすっかり忘れてた。色々試して、iPhoneSE3 で構わないということになった。
+
+以前に iPhone で試したときは、vscode.dev には画面が小さ過ぎた。不要な画面要素を十分に減らすことが出来なかった。[もう一度試した](../diary/2025-11.md#1115-vscode-dev-on-iPhone-se3) ところ、サイドバーを閉じて、アクティビティバーを下に移動して、行番号を消して、フォントを小さくしたら十分に使えるサイズになった。
+
+ということで、初期化時間などはまだ不満だが、iPhone は日記には使える。termux-x11 には未練があるけれど。
+
+他にもいくつかの端末を試した。
+
+- Lenovo M10 HD10 2nd Gen .. [Ubuntu Touch が対応している Android 端末](https://devices.ubuntu-touch.io/device/amar-row-lte/)。
+  - 遅くて驚いた。
+  - [Ubuntu Touch を動かすだけで大変だった](../diary/2025-08.md#0816-Lenovo-m10-gen2)。
+  - [使ってみたけど、デスクトップ OS とは感じが違う](../diary/2025-08.md#0821-using-ubuntu-touch)。root 権限で好き勝手にできる感じではないし、それなのにストアにはアプリが少ない。アプリが少ないのは、ビルドしてくれる人が少ないからだろう。開発系のものがかなり少なく、開発者は使ってないようだ。
+- MW-WPC04 .. キーボード着脱可能な n4020 の 8 インチ 2in1 端末。
+  - [遅過ぎる](../diary/2025-08.md#0817-wpc04)。Windows11 の Windows Update のチェックと Antimalware が裏で動いてると何もできない。ハードウェアスレッドが 2 つしかない CPU では Windows11 を使ってはいけない。
+  - まあまあ分厚い。慣れれば問題ないかも知れないが、性能でウンザリしてて試す気にはなれなかった。
+  - Linux には十分な性能があるかも知れないけど、逆に分厚さと重さのせいで試す気になれなかった。
+- Kingrid T90 .. 11 インチ Android 16 タブレット
+  - [Android 16 で Linux が使えるというので買ったんだけど、エラーで動かない](../diary/2025-08.md#0831-kingrid-android16)。
+  - Kindle の半分程度の性能しかない。termux なりをインストールして使うにしても、なら Kindle にするでしょ。メモリは多いんだけどね、スワップメモリもあるし。
+- Zwide SA11 .. 11 インチ n150 タブレット。着脱可能なキーボードが付いてこないバージョンを入手した
+  - [使い物になる処理速度](../diary/2025-09.md#1001-using-sa11)。ハードウェアスレッドが4つあって、Windows Update 関連と Antimalware のプロセスが動いていても、遅くはなるが何もできないということはない。
+  - `Loop Hero` を実行しても CPU も GPU も 100% にならない。WPC04 は目一杯だった。
+- Google Pixel 6 .. 6.4 インチ Android スマートフォン
+  - そもそも iPhone SE の画面が狭過ぎるから Kindle に始まって色々試したのだから、画面が大きめなスマホでいいんじゃないの？ということで試したが、前述のように iPhone SE3 でも使い物になる設定をみつけたので、これは不要になった。
+  - Google Pixel を選んだのは、[Android 15 で入った仮想化](https://source.android.com/docs/core/virtualization?hl=ja) 機構の上で動く Linux Terminal が存在するから。Kingrid T90 では動かなかったが、Pixel では動作報告がある。
+    - が、なんだったかが動かなかった。何が動かなかったか忘れたが、諦めた。vscode のインストールまではたどり着いてない。
+      - 日記はウィンドウマネージャのインストールにすら触れてない。termux-x11 のように、普通に X が使える。
+    - で、iPhone 同様にブラウザで vscode.dev を試してみて、画面が広い、ソフトウェアキーボードにカーソル操作がある、という大きな利点はあったが、**単にキーボードの慣れの問題で iPhone でいい** や、となった。
+  - やっぱり iPhone と比べると重い。また、縦に遠い範囲をタッチするのにはまだ慣れない。
 
 インストールしたもの
 ------------------
@@ -53,4 +85,4 @@ Todo Memo
   - python -m dulwich -c “porcelain.fetch(‘.’, ‘origin’)”
 - Gboard 日本語入力
 
-<!-- cSpell:words Gboard shizuku XSDL proot distro Squircle dulwich Izzy Wrix Spck -->
+<!-- cSpell:words Gboard shizuku XSDL proot distro Squircle dulwich Izzy Wrix Spck Zwide -->
