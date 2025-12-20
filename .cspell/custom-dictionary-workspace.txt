@@ -6,6 +6,7 @@ ASIC
 asint
 astc
 Bazel
+Bazzite
 bezier
 behaviour
 bfloat
@@ -52,6 +53,7 @@ struct
 tada
 Tbps
 toclip
+TOEIC
 tparam
 wday
 wdays
