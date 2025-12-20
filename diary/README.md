@@ -16,7 +16,7 @@ Amazon 欲しいものリスト(こういうのに興味がある、という話
 
 ## 2025
 
-[2025-12.md](2025-12.md) 大久保公園カレーイベント、**超音波加湿器**、トラックボール、乾麺、  
+[2025-12.md](2025-12.md) Crossover、大久保公園カレーイベント、植木の冬越し準備、**超音波加湿器**、トラックボール、乾麺、FX 業者選定、Bazzite 画面方向、OCN から POVO へ、職探し、  
 [2025-11.md](2025-11.md) 大久保公園ラーメンイベント、ブラックフライデー、  
 [2025-10.md](2025-10.md) CachyOS、新NAS、英語学習アプリ、NVMe SSD vs SATA SSD、プライムデー、wsappx、  
 [2025-09.md](2025-09.md) スマホの仕事、M1 Macbook Air 落札、`Loop Hero`、Kindle の git クライアントとテキストエディタ、Ubuntu 以外のディストロ、メルカリで Zwide SA11 購入、最終出社  
@@ -128,4 +128,4 @@ GitHubが数式をサポートして、TeXをそのまま書ける。`$1 + 1$`�
 
 *note: 各フォルダに `cspell.json` を配置する仕組みに移行中で、ここの内容はフォルダ毎の辞書についてメンテが必要。*
 
-<!-- cSpell:words fbxsdk Zwide CachyOS wsappx -->
+<!-- cSpell:words fbxsdk Zwide CachyOS wsappx POVO -->
