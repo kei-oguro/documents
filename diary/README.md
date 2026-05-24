@@ -1,4 +1,4 @@
-[documents](../README.md)
+[documents](../)
 
 # 日記
 

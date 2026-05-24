@@ -1,4 +1,4 @@
-[documents](../README.md)
+[documents](../)
 
 食べ物のこと
 ===========
