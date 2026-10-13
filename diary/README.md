@@ -140,4 +140,9 @@ GitHubが数式をサポートして、TeXをそのまま書ける。`$1 + 1$`�
 
 *note: 各フォルダに `cspell.json` を配置する仕組みに移行中で、ここの内容はフォルダ毎の辞書についてメンテが必要。*
 
+### vscode を更新する時に、serve-web で起動した node プロセスを殺すワンライナー
+
+`Get-CimInstance Win32_Process -Filter "Name='node.exe'" | Where-Object { ($_.CommandLine -match "serve-web") -and ($_.CommandLine -match "--socket-path") } | ForEach-Object { Stop-Process -Id $_.ProcessId -Force }`
+
+
 <!-- cSpell:words fbxsdk Zwide CachyOS wsappx POVO -->
